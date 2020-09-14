@@ -20,7 +20,7 @@ jobs:
     - name: Create Archive
       id: create-archive
       run: |
-        zip -r Bridge Bridge
+        zip -r grupoetra grupoetra
     - name: Create Release
       id: create-release
       uses: actions/create-release@v1
