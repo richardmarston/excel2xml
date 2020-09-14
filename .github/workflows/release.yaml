@@ -21,7 +21,7 @@ jobs:
       id: create-archive
       run: |
         pushd grupoetra
-        zip -r grupoetra */*.xml
+        zip -r ../grupoetra */*.xml
         popd
     - name: Create Release
       id: create-release
